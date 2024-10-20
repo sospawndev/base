@@ -23,18 +23,18 @@ class Linkque
 		 if($this->type=="development")
 		 {
 			
-			 $arr['username'] = 'LI307GXIN';
-			 $arr['pin'] = '2K2NPCBBNNTovgB';
+			 $arr['username'] = '';
+			 $arr['pin'] = '';
 			 $arr['client-id'] = 'testing';
 			 $arr['client-secret'] = '123';
 			 $arr['signature'] = !empty($this->signature)?$this->signature:'LinkQu@2020';			 
 		 }
 		 if($this->type=="production")
 		 {
-			 $arr['username'] = 'LI697IJZZ';
-			 $arr['pin'] = 'JsIKCOjDT6OUziz';
-			 $arr['client-id'] = 'f22a9596-c369-4740-bb82-7e3783cbd00e';
-			 $arr['client-secret'] = 'HdbSJi4xjuWkPISeHpqRepiFP';
+			 $arr['username'] = '';
+			 $arr['pin'] = '';
+			 $arr['client-id'] = '';
+			 $arr['client-secret'] = '';
 			 $arr['signature'] = 'LinkQu@2020';			 
 		 }
 		 return $arr;

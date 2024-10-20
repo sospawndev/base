@@ -16,8 +16,8 @@ class Payment
 	//curl
 	public static function key_sandbox()
 	{
-		$secretkey = "dcc9d0fb-787c-40b4-b3a0-d436f8a31ef8";
-		$apikey = "test_71d46ad531054925069f9f5cac41bbed";		
+		$secretkey = "";
+		$apikey = "";		
 		return array("apikey"=>$apikey,"secret_key"=>$secretkey);
 	}
 	public static function key_live()
