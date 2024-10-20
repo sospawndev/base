@@ -1,0 +1,68 @@
+.countdown-box {
+	width: 100%;
+	max-width: 45rem;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+	background: -webkit-radial-gradient(farthest-side at 50% 45%, rgba(67, 76, 181, 0.8), rgba(67, 76, 181, 0));
+	background: radial-gradient(farthest-side at 50% 45%, rgba(67, 76, 181, 0.8), rgba(67, 76, 181, 0));
+	z-index: 3;
+	position: relative;
+	overflow: hidden;
+}
+
+.countdown-box::after {
+	content: " ";
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	width: 200%;
+	height: 125%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background: -webkit-radial-gradient(farthest-side at 50% 45%, rgba(67, 76, 181, 0.8), rgba(67, 76, 181, 0));
+	background: radial-gradient(farthest-side at 50% 45%, rgba(67, 76, 181, 0.8), rgba(67, 76, 181, 0));
+	z-index: -1;
+	-webkit-filter: blur(10px);
+	 
+	filter: blur(10px);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.countdown-box h4 {
+	font-size:24px;
+	text-align: center;
+	background: #1c1891;
+	padding: 1.3rem;
+	margin-bottom: 0;
+}
+
+.countdown-box .countdown {
+	padding: 4rem 30px;
+}
+
+.countdown-box p {
+	font-size: 1.4rem;
+	line-height: 3rem;
+	color: #f064a5;
+	text-align: center;
+}
+
+.countdown-box .btn {
+	width: 100%;
+	display: block;
+}
+
+.countdown-box+.radial-bg {
+	width: 80rem;
+	height: 80rem;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}

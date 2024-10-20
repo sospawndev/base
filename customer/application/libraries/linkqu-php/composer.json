@@ -1,0 +1,42 @@
+{
+    "name": "zerosdev/linkqu-php",
+    "description": "Unofficial Integration Kit for LinkQu.id",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5|^7.0",
+        "php": ">=7.0.0",
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "homepage": "https://linkqu.id",
+    "support": {
+        "issues": "https://github.com/zerosdev/linkqu-php/issues",
+        "source": "https://github.com/zerosdev/linkqu-php"
+    },
+    "authors": [
+        {
+            "name": "ZerosDev",
+            "email": "admin@zeros.co.id"
+        },
+        {
+            "name": "Suyadi",
+            "email": "suyadi.1992@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "ZerosDev\\LinkQu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZerosDev\\LinkQu\\Laravel\\ServiceProvider"
+            ],
+            "aliases": {
+                "LinkQu": "ZerosDev\\LinkQu\\Laravel\\Facade"
+            }
+        }
+    }
+}

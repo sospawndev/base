@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-pincode-input",
+  "version": "3.0.1",
+  "description": "Bootstrap jQuery widget for multi-digit pincode input",
+  "main": "js/bootstrap-pincode-input.js",
+  "scripts": {
+    "start": "lite-server",
+    "prebuild": "npm install",
+    "build": "sass --style expanded --no-source-map --no-error-css scss/:css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fkranenburg/bootstrap-pincode-input.git"
+  },
+  "keywords": [
+    "pincode",
+    "bootstrap pincode",
+    "bootstrap pincode input",
+    "jQuery",
+    "jquery-plugin"
+  ],
+  "author": "Ferry Kranenburg",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fkranenburg/bootstrap-pincode-input/issues"
+  },
+  "homepage": "https://github.com/fkranenburg/bootstrap-pincode-input",
+  "devDependencies": {
+    "bootstrap": "^5.0.2",
+    "lite-server": "^2.5.4",
+    "sass": "^1.35.2"
+  }
+}

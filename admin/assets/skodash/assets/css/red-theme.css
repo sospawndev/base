@@ -1,0 +1,767 @@
+html.red-theme body{
+  
+    color: #fcfcfc;
+    background-color:#900;
+
+}
+
+html.red-theme ::placeholder {
+    color: #fff !important;
+    opacity: 0.4 !important;
+}
+
+
+/* Sidebar */
+
+html.red-theme .sidebar-wrapper,
+html.red-theme .sidebar-wrapper .iconmenu,
+html.red-theme .sidebar-wrapper .iconmenu .nav-toggle-box,
+html.red-theme .sidebar-wrapper .textmenu,
+html.red-theme .sidebar-wrapper .textmenu .brand-logo {
+
+    background-color: #900;
+
+}
+
+html.red-theme .sidebar-wrapper, 
+html.red-theme .sidebar-wrapper .iconmenu {
+
+    border-right: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.red-theme .sidebar-wrapper .iconmenu .nav-toggle-box,
+html.red-theme .sidebar-wrapper .textmenu .brand-logo,
+html.red-theme .sidebar-wrapper .textmenu .list-group .list-group-item {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+    color: #fcfcfc;
+
+}
+
+
+html.red-theme .sidebar-wrapper .textmenu .list-group .list-group-item:hover {
+    background-color: #C00;
+    transition: all 0.2s;
+}
+
+
+html.red-theme .sidebar-wrapper .iconmenu .nav-pills .nav-link,
+html.red-theme .sidebar-wrapper .iconmenu .nav-toggle-box .nav-toggle-icon {
+    color: #fcfcfc;
+    background-color:#C00;
+}
+
+html.red-theme .sidebar-wrapper .iconmenu .nav-pills .nav-link.active, html.red-theme .iconmenu .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0d6efd;
+}
+
+html.red-theme .brand-logo img {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+
+/* Header */
+
+html.red-theme .top-header .navbar {
+  
+    color: #fcfcfc;
+    background-color: #900;
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.red-theme .top-header .navbar .top-navbar .nav-link {
+
+    color: #fcfcfc;
+
+}
+
+html.red-theme .mobile-toggle-icon,
+html.red-theme .search-toggle-icon,
+html.red-theme .projects,
+html.red-theme .notifications,
+html.red-theme .messages,
+html.red-theme .top-header .navbar .user-setting {
+
+    color: #fcfcfc;
+    background-color: #C00;
+
+}
+
+html.red-theme .top-header .navbar .user-name {
+
+    color: #fcfcfc;
+
+}
+
+html.red-theme .top-header .navbar .searchbar .form-control {
+
+    color: #fcfcfc;
+    background-color: #C00;
+
+}
+
+
+/* Components */
+
+
+html.red-theme .btn-dark {
+    color: #fff;
+    background-color: #101821;
+    border-color: #101821;
+}
+
+html.red-theme .btn-outline-dark {
+    color: #b1b6bb;
+    border-color: #7f868d;
+}
+
+html.red-theme .btn-white {
+    color: #ffffff;
+    background-color: #C00;
+    border-color: rgb(255 255 255 / 12%);
+}
+
+html.red-theme .btn-light {
+    color: #fff;
+    background-color: #313c53;
+    border-color: rgb(255 255 255 / 12%);
+}
+
+
+html.red-theme .ff_fileupload_wrap .ff_fileupload_dropzone, html.red-theme .imageuploadify {
+
+    border: 2px dashed rgb(255 255 255 / 74%);
+    background-color: #C00;
+
+}
+
+html.red-theme .picker__input {
+    background-color: #900 !important;
+}
+
+html.red-theme .picker__holder {
+    background: #900;
+    border: 1px solid rgb(255 255 255 / 12%);
+}
+
+
+html.red-theme  .picker__button--today, html.red-theme  .picker__button--clear, html.red-theme  .picker__button--close {
+
+    border: 1px solid rgb(255 255 255 / 12%);
+    background: #900;
+
+}
+
+
+html.red-theme .select2-container--bootstrap4 .select2-selection {
+	background-color: #900;
+	border: 1px solid rgb(255 255 255 / .35)
+}
+html.red-theme .select2-dropdown {
+	background-color: #900;
+	border: 1px solid rgb(255 255 255 / 38%)
+}
+html.red-theme .select2-search--dropdown .select2-search__field {
+	border: 1px solid rgb(255 255 255 / 34%);
+	background-color: #900;
+	color: #e3dfdf
+}
+html.red-theme .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__choice {
+	color: #dee1e5;
+	border: 1px solid rgb(255 255 255 / 55%);
+	background: #171717
+}
+html.red-theme .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__rendered .select2-search__field {
+	background: 0 0;
+	color: #e6e1e1
+}
+html.red-theme .select2-container--bootstrap4 .select2-dropdown .select2-results__option[aria-selected=true] {
+	background-color: #900;
+}
+
+
+
+
+
+
+html.red-theme .modal-content {
+
+    background-color: #C00;
+
+}
+
+html.red-theme .modal-header {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.red-theme .modal-footer {
+
+    border-top: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.red-theme .nav-tabs .nav-item.show .nav-link, html.red-theme .nav-tabs .nav-link.active {
+    background-color: #900;
+}
+
+html.red-theme .nav-tabs {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.red-theme .nav-primary.nav-tabs .nav-link.active {
+
+    border-color: #008cff #008cff rgb(255 255 255 / 24%);
+
+}
+
+html.red-theme .nav-tabs .nav-link {
+    color: #ffffff;
+}
+
+
+html.red-theme .nav-danger.nav-tabs .nav-link.active {
+    border-color: #f41127 #f41127 rgb(255 255 255 / 24%);
+}
+
+html.red-theme .nav-success.nav-tabs .nav-link.active {
+    border-color: #17a00e #17a00e rgb(255 255 255 / 24%);
+}
+
+html.red-theme .nav-warning.nav-tabs .nav-link.active {
+    border-color: #ffc107 #ffc107 rgb(255 255 255 / 24%);
+}
+
+
+html.red-theme .nav-pills .nav-link {
+
+    color: #ffffff;
+
+}
+
+html.red-theme .page-link {
+
+    color: #ffffff;
+    background-color: #C00;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.red-theme  .page-item.disabled .page-link {
+
+    color: #ffffff;
+    background-color: #181f2e;
+    border-color: rgb(255 255 255 / 12%);
+
+}
+
+
+html.red-theme  .productlist .product-box {
+
+    border: 1px solid rgb(255 255 255 / 12%);
+    background-color: #900;
+
+}
+
+
+html.red-theme .form-control, html.red-theme .form-select {
+
+    color: #fcfcfc;
+    background-color: #900;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+html.red-theme .form-control:disabled, html.red-theme .form-control[readonly] {
+
+    background-color: #2c364a;
+
+}
+
+
+html.red-theme  .form-select:disabled {
+
+    background-color: #2c364a;
+
+}
+
+
+html.red-theme .bootstrap-tagsinput {
+    color: #fcfcfc;
+    background-color: #900;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+html.red-theme .input-group-text {
+
+    color: #ffffff;
+    background-color: #313c53;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+
+
+html.red-theme .chip {
+
+    color: #ffffff;
+    background-color: #141b29;
+
+}
+
+html.red-theme .card {
+  
+    background-color: #C00;
+
+}
+
+html.red-theme .card-header,
+html.red-theme .card-footer {
+
+    background-color: #C00;
+
+}
+
+html.red-theme .bg-dark{
+  
+    background-color: #101821!important;
+}
+
+
+html.red-theme .text-secondary {
+
+    color: #8c949c!important;
+    
+}
+
+html.red-theme .border {
+
+    border: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+
+html.red-theme .border-start {
+    
+    border-left: 1px solid rgb(255 255 255 / 12%) !important;
+} 
+
+html.red-theme .border-end {
+
+    border-right: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+html.red-theme .border-top {
+
+    border-top: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+html.red-theme .border-bottom {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+
+html.red-theme .text-option {
+    color: #fcfcfc!important;
+}
+
+html.red-theme .offcanvas {
+    background-color: #900;
+    
+}
+
+html.red-theme .btn-close {
+  
+    filter: invert(1) grayscale(100%) brightness(200%);
+
+}
+
+html.red-theme .w_percent {
+
+    color: #ffffff;
+
+}
+
+
+html.red-theme .bg-light {
+
+    background-color: #1b2336!important;
+
+} 
+
+
+html.red-theme .list-group-item {
+
+    color: #fcfcfc;
+    background-color: #C00;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+html.red-theme .list-group-flush>.list-group-item {
+
+    border-width: 0 0 1px;
+    
+}
+
+html.red-theme .new-customer-list .customer-list-item:hover {
+
+	background-color: #1b2436;
+
+}
+
+
+html.red-theme .best-product-item {
+
+	background-color: #C00;
+
+}
+html.red-theme .best-product-item:hover,
+html.red-theme .sellers-list-item:hover {
+
+	background-color: #1b2436;
+
+}
+
+html.red-theme .theme-icons,
+html.red-theme .product-box {
+    background-color: #C00;
+    color: #f1f4f6;
+}
+
+
+html.red-theme .accordion-button {
+    color: #ffffff;
+    background-color: #C00;
+}
+
+html.red-theme .accordion-item {
+    background-color: #1b2436;
+    border: 1px solid rgb(255 255 255 / 12%);
+}
+
+
+html.red-theme .accordion-button:focus {
+
+    border-color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+
+}
+
+html.red-theme .accordion-button:not(.collapsed) {
+
+    color: #ffffff;
+    background-color: #161d2c;
+
+}
+
+html.red-theme .dropdown-menu {
+
+    color: #fcfcfc;
+    background-color: #C00;
+
+}
+
+html.red-theme  .dropdown-item {
+
+    color: #fcfcfc;
+
+}
+
+
+html.red-theme .top-header .navbar .dropdown-large .dropdown-menu::after {
+
+    background: #C00;
+    border-top: 1px solid #2f3b55;
+    border-left: 1px solid #2f3b55;
+
+}
+
+html.red-theme .top-header .navbar .dropdown-searchbar .form-control {
+    color: #fcfcfc;
+    background-color: #C00;
+}
+
+
+html.red-theme .top-header .navbar .dropdown-item .setting-icon {
+
+    background-color: #2b3650;
+
+}
+
+html.red-theme .top-header .navbar .dropdown-large .dropdown-item:hover {
+
+    border-radius: 10px;
+    color: #fcfcfc;
+	background-color: #273146
+}
+
+html.red-theme .top-header .navbar .dropdown-menu .notification-box {
+
+    background-color: #2b3650;
+
+}
+
+html.red-theme .top-header .navbar .dropdown-menu .apps:hover {
+
+    background-color: #283349;
+    transition: all 0.2;
+
+}
+
+
+
+html.red-theme .top-header .navbar .dropdown-menu .apps .apps-name {
+    color: #fcfcfc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html.red-theme .table {
+
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #ffffff;
+    --bs-table-striped-bg: rgba(255, 255, 255, 0.05);
+    --bs-table-active-color: #ffffff;
+    --bs-table-active-bg: rgb(255 255 255 / 10%);
+    --bs-table-hover-color: #ffffff;
+    --bs-table-hover-bg: rgb(255 255 255 / 8%);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #fcfcfc;
+    vertical-align: top;
+    border-color: rgb(255 255 255 / 12%);
+    
+}
+
+html.red-theme .table-light {
+
+    --bs-table-bg: rgb(255 255 255 / 12%);
+    --bs-table-striped-bg: #ecedee;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #dfe0e1;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #e5e6e7;
+    --bs-table-hover-color: #000;
+    color: #fff;
+    border-color: #dfe0e1;
+
+}
+
+
+/* Emailbox */
+
+
+html.red-theme .email-wrapper {
+	background-color: #C00;
+	box-shadow: 0 .1rem .7rem rgb(0 0 0 / 24%)
+}
+html.red-theme .email-sidebar {
+	background-color: #C00;
+	border-right: 1px solid rgb(255 255 255 / .12)
+}
+html.red-theme .email-sidebar-header {
+	background-color: #C00;
+	border-bottom: 1px solid rgb(255 255 255 / .12);
+	border-right: 0 solid rgb(255 255 255 / 12%)
+}
+html.red-theme .email-navigation {
+	border-bottom: 1px solid rgb(255 255 255 / 13%)
+}
+html.red-theme .email-navigation a.list-group-item {
+	color: #e4e5e6;
+	background-color: #C00;
+	border-bottom: 1px solid rgb(0 0 0 / 0%)
+}
+html.red-theme .email-navigation a.list-group-item:hover {
+	background-color: rgb(255 255 255 / 14%);
+}
+html.red-theme .email-meeting a.list-group-item {
+	color: #e4e5e6;
+	background-color: #C00;
+	border-bottom: 1px solid rgb(0 0 0 / 0%)
+}
+html.red-theme .email-meeting a.list-group-item:hover {
+	background-color: rgb(255 255 255 / 14%);
+}
+html.red-theme .list-group-item {
+	background-color: #C00;
+	border: 1px solid rgb(255 255 255 / 13%)
+}
+html.red-theme .email-navigation a.list-group-item.active {
+	color: #ffffff;
+    font-weight: 600;
+    background-color: rgb(255 255 255 / 14%);
+}
+html.red-theme .list-group-flush>.list-group-item {
+	border-width: 0 0 1px
+}
+html.red-theme .border-top {
+	border-top: 1px solid rgb(255 255 255 / 13%)!important
+}
+html.red-theme .email-header {
+	background-color: #C00;
+	border-bottom: 1px solid rgb(255 255 255 / 13%)
+}
+html.red-theme .email-content {
+	background: #C00
+}
+html.red-theme .email-list div.email-message {
+	background-color: #C00;
+	border-bottom: 1px solid rgb(255 255 255 / 12%);
+	color: #e4e5e6
+}
+html.red-theme .email-list div.email-message:hover {
+	transition: all .2s ease-out;
+	background: #434a50
+}
+
+
+html.red-theme .email-time {
+	font-size: 13px;
+	color: #8c969e
+}
+
+
+/* Chatbox */ 
+
+
+html.red-theme .chat-wrapper {
+	background-color: #C00;
+	box-shadow: 0 .1rem .7rem rgb(0 0 0 / 22%)
+}
+html.red-theme .chat-sidebar {
+	background-color: #C00;
+	border-right: 1px solid rgb(255 255 255 / 13%)
+}
+html.red-theme .chat-sidebar-header {
+	background-color: #C00;
+	border-bottom: 1px solid rgb(255 255 255 / 13%);
+	border-right: 0 solid rgb(255 255 255 / 13%)
+}
+html.red-theme .chat-header {
+	background-color: #C00;
+	border-bottom: 1px solid rgb(255 255 255 / 13%)
+}
+html.red-theme .chat-tab-menu li a.nav-link {
+	color: #c3c5c8
+}
+html.red-theme .chat-title {
+	color: #e4e5e6
+}
+html.red-theme .chat-msg {
+	font-size: 14px;
+	color: #848992
+}
+html.red-theme .chat-time {
+	font-size: 13px;
+	color: #8c969e
+}
+html.red-theme .chat-top-header-menu a {
+	color: #c3c5c8;
+	background-color: #C00;
+	border: 1px solid rgb(255 255 255 / 15%)
+}
+html.red-theme .chat-content-leftside .chat-left-msg {
+	background-color: #C00
+}
+html.red-theme .chat-content-rightside .chat-right-msg {
+	background-color: #41484e
+}
+html.red-theme .chat-footer {
+	background-color: #C00;
+	border-top: 1px solid rgb(255 255 255 / 13%)
+}
+html.red-theme .chat-footer-menu a {
+	color: #c3c5c8;
+	background-color: #C00;
+	border: 1px solid rgb(255 255 255 / 15%)
+}
+
+
+html.red-theme .fm-menu .list-group a {
+	color: #c3c5c8
+}
+html.red-theme .fm-icon-box {
+	background: #C00;
+	color: #fff
+}
+html.red-theme .contacts-social a {
+	background: #C00;
+	color: #fff
+}
+
+
+html.red-theme .fc-theme-standard td, html.red-theme .fc-theme-standard th {
+	border: 1px solid rgb(255 255 255 / .12)
+}
+html.red-theme .fc-theme-standard .fc-scrollgrid {
+	border: 1px solid rgb(255 255 255 / 12%)
+}
+html.red-theme .fc .fc-col-header-cell-cushion {
+	color: #fff
+}
+html.red-theme .fc .fc-daygrid-day-number {
+	color: #fff
+}
+
+html.red-theme .breadcrumb {
+	background-color: rgb(32 42 64 / 0%);
+}
+html.red-theme .breadcrumb-item.active {
+	color: #8b969f
+}
+html.red-theme .breadcrumb-title {
+	border-right: 1.5px solid rgb(255 255 255 / 18%)
+}
+
+html.red-theme .bg-body {
+	background-color: #C00!important
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width:1199px)  {
+
+    html.red-theme .top-header .navbar .full-searchbar {
+        background-color: #900;
+    }
+
+}
+
+
+
+
+
+
+
+

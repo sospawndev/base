@@ -1,0 +1,38 @@
+{
+	"name": "detain/ip-tools",
+	"type": "library",
+	"description": "Universal IP Tools for manipulation on IPv4 and IPv6. Network calculator for subnet mask and other classless (CIDR) network information.",
+	"keywords": ["ip", "ipv4", "ipv6", "tools", "utilities", "compare", "match", "subnet", "mask", "calculator", "network", "cidr", "address"],
+	"homepage": "https://github.com/detain/ip-tools",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/detain/ip-tools/issues",
+		"source": "https://github.com/detain/ip-tools"
+	},
+	"authors": [
+		{
+			"name": "Joe Huss",
+			"email": "detain@interserver.net",
+			"homepage": "https://www.interserver.net",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.5",
+		"ext-bcmath": "*"
+	},
+	"require-dev": {
+	  "phpunit/phpunit": "5.*",
+	  "php-coveralls/php-coveralls": "*",
+          "phpunit/phpcov": "*",
+	  "squizlabs/php_codesniffer": "*",
+	  "phpspec/phpspec": "*"
+	},
+	"autoload": {
+		"psr-4": { "Net\\": "src/" }
+	},
+	"autoload-dev": {
+		"psr-4": { "Tests\\": "tests/" }
+	}
+}

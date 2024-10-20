@@ -1,0 +1,767 @@
+html.green-theme body{
+  
+    color: #000;
+    background-color:#3461ff;
+
+}
+
+html.green-theme ::placeholder {
+    color: #000 !important;
+    opacity: 0.4 !important;
+}
+
+
+/* Sidebar */
+
+html.green-theme .sidebar-wrapper,
+html.green-theme .sidebar-wrapper .iconmenu,
+html.green-theme .sidebar-wrapper .iconmenu .nav-toggle-box,
+html.green-theme .sidebar-wrapper .textmenu,
+html.green-theme .sidebar-wrapper .textmenu .brand-logo {
+
+    background-color: #3461ff;
+
+}
+
+html.green-theme .sidebar-wrapper, 
+html.green-theme .sidebar-wrapper .iconmenu {
+
+    border-right: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.green-theme .sidebar-wrapper .iconmenu .nav-toggle-box,
+html.green-theme .sidebar-wrapper .textmenu .brand-logo,
+html.green-theme .sidebar-wrapper .textmenu .list-group .list-group-item {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+    color: #000;
+
+}
+
+
+html.green-theme .sidebar-wrapper .textmenu .list-group .list-group-item:hover {
+    background-color: #fcfcfc;
+    transition: all 0.2s;
+}
+
+
+html.green-theme .sidebar-wrapper .iconmenu .nav-pills .nav-link,
+html.green-theme .sidebar-wrapper .iconmenu .nav-toggle-box .nav-toggle-icon {
+    color: #000;
+    background-color:#fcfcfc;
+}
+
+html.green-theme .sidebar-wrapper .iconmenu .nav-pills .nav-link.active, html.green-theme .iconmenu .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #0d6efd;
+}
+
+html.green-theme .brand-logo img {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+
+
+/* Header */
+
+html.green-theme .top-header .navbar {
+  
+    color: #000;
+    background-color: #3461ff;
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.green-theme .top-header .navbar .top-navbar .nav-link {
+
+    color: #000;
+
+}
+
+html.green-theme .mobile-toggle-icon,
+html.green-theme .search-toggle-icon,
+html.green-theme .projects,
+html.green-theme .notifications,
+html.green-theme .messages,
+html.green-theme .top-header .navbar .user-setting {
+
+    color: #000;
+    background-color: #fcfcfc;
+
+}
+
+html.green-theme .top-header .navbar .user-name {
+
+    color: #000;
+
+}
+
+html.green-theme .top-header .navbar .searchbar .form-control {
+
+    color: #000;
+    background-color: #fcfcfc;
+
+}
+
+
+/* Components */
+
+
+html.green-theme .btn-dark {
+    color: #000;
+    background-color: #101821;
+    border-color: #101821;
+}
+
+html.green-theme .btn-outline-dark {
+    color: #b1b6bb;
+    border-color: #7f868d;
+}
+
+html.green-theme .btn-white {
+    color: #000000;
+    background-color: #fcfcfc;
+    border-color: rgb(255 255 255 / 12%);
+}
+
+html.green-theme .btn-light {
+    color: #000;
+    background-color: #313c53;
+    border-color: rgb(255 255 255 / 12%);
+}
+
+
+html.green-theme .ff_fileupload_wrap .ff_fileupload_dropzone, html.green-theme .imageuploadify {
+
+    border: 2px dashed rgb(255 255 255 / 74%);
+    background-color: #fcfcfc;
+
+}
+
+html.green-theme .picker__input {
+    background-color: #3461ff !important;
+}
+
+html.green-theme .picker__holder {
+    background: #3461ff;
+    border: 1px solid rgb(255 255 255 / 12%);
+}
+
+
+html.green-theme  .picker__button--today, html.green-theme  .picker__button--clear, html.green-theme  .picker__button--close {
+
+    border: 1px solid rgb(255 255 255 / 12%);
+    background: #3461ff;
+
+}
+
+
+html.green-theme .select2-container--bootstrap4 .select2-selection {
+	background-color: #3461ff;
+	border: 1px solid rgb(255 255 255 / .35)
+}
+html.green-theme .select2-dropdown {
+	background-color: #3461ff;
+	border: 1px solid rgb(255 255 255 / 38%)
+}
+html.green-theme .select2-search--dropdown .select2-search__field {
+	border: 1px solid rgb(255 255 255 / 34%);
+	background-color: #3461ff;
+	color: #e3dfdf
+}
+html.green-theme .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__choice {
+	color: #dee1e5;
+	border: 1px solid rgb(255 255 255 / 55%);
+	background: #171717
+}
+html.green-theme .select2-container--bootstrap4 .select2-selection--multiple .select2-selection__rendered .select2-search__field {
+	background: 0 0;
+	color: #e6e1e1
+}
+html.green-theme .select2-container--bootstrap4 .select2-dropdown .select2-results__option[aria-selected=true] {
+	background-color: #3461ff;
+}
+
+
+
+
+
+
+html.green-theme .modal-content {
+
+    background-color: #fcfcfc;
+
+}
+
+html.green-theme .modal-header {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.green-theme .modal-footer {
+
+    border-top: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.green-theme .nav-tabs .nav-item.show .nav-link, html.green-theme .nav-tabs .nav-link.active {
+    background-color: #3461ff;
+}
+
+html.green-theme .nav-tabs {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.green-theme .nav-primary.nav-tabs .nav-link.active {
+
+    border-color: #008cff #008cff rgb(255 255 255 / 24%);
+
+}
+
+html.green-theme .nav-tabs .nav-link {
+    color: #000000;
+}
+
+
+html.green-theme .nav-danger.nav-tabs .nav-link.active {
+    border-color: #f41127 #f41127 rgb(255 255 255 / 24%);
+}
+
+html.green-theme .nav-success.nav-tabs .nav-link.active {
+    border-color: #17a00e #17a00e rgb(255 255 255 / 24%);
+}
+
+html.green-theme .nav-warning.nav-tabs .nav-link.active {
+    border-color: #ffc107 #ffc107 rgb(255 255 255 / 24%);
+}
+
+
+html.green-theme .nav-pills .nav-link {
+
+    color: #000000;
+
+}
+
+html.green-theme .page-link {
+
+    color: #000000;
+    background-color: #fcfcfc;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+html.green-theme  .page-item.disabled .page-link {
+
+    color: #000000;
+    background-color: #181f2e;
+    border-color: rgb(255 255 255 / 12%);
+
+}
+
+
+html.green-theme  .productlist .product-box {
+
+    border: 1px solid rgb(255 255 255 / 12%);
+    background-color: #3461ff;
+
+}
+
+
+html.green-theme .form-control, html.green-theme .form-select {
+
+    color: #000;
+    background-color: #3461ff;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+html.green-theme .form-control:disabled, html.green-theme .form-control[readonly] {
+
+    background-color: #2c364a;
+
+}
+
+
+html.green-theme  .form-select:disabled {
+
+    background-color: #2c364a;
+
+}
+
+
+html.green-theme .bootstrap-tagsinput {
+    color: #000;
+    background-color: #3461ff;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+html.green-theme .input-group-text {
+
+    color: #000000;
+    background-color: #313c53;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+
+
+html.green-theme .chip {
+
+    color: #000000;
+    background-color: #141b29;
+
+}
+
+html.green-theme .card {
+  
+    background-color: #fcfcfc;
+
+}
+
+html.green-theme .card-header,
+html.green-theme .card-footer {
+
+    background-color: #fcfcfc;
+
+}
+
+html.green-theme .bg-dark{
+  
+    background-color: #101821!important;
+}
+
+
+html.green-theme .text-secondary {
+
+    color: #8c949c!important;
+    
+}
+
+html.green-theme .border {
+
+    border: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+
+html.green-theme .border-start {
+    
+    border-left: 1px solid rgb(255 255 255 / 12%) !important;
+} 
+
+html.green-theme .border-end {
+
+    border-right: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+html.green-theme .border-top {
+
+    border-top: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+html.green-theme .border-bottom {
+
+    border-bottom: 1px solid rgb(255 255 255 / 12%) !important;
+
+}
+
+
+html.green-theme .text-option {
+    color: #000!important;
+}
+
+html.green-theme .offcanvas {
+    background-color: #3461ff;
+    
+}
+
+html.green-theme .btn-close {
+  
+    filter: invert(1) grayscale(100%) brightness(200%);
+
+}
+
+html.green-theme .w_percent {
+
+    color: #000000;
+
+}
+
+
+html.green-theme .bg-light {
+
+    background-color: #1b2336!important;
+
+} 
+
+
+html.green-theme .list-group-item {
+
+    color: #000;
+    background-color: #fcfcfc;
+    border: 1px solid rgb(255 255 255 / 12%);
+
+}
+
+
+html.green-theme .list-group-flush>.list-group-item {
+
+    border-width: 0 0 1px;
+    
+}
+
+html.green-theme .new-customer-list .customer-list-item:hover {
+
+	background-color: #1b2436;
+
+}
+
+
+html.green-theme .best-product-item {
+
+	background-color: #fcfcfc;
+
+}
+html.green-theme .best-product-item:hover,
+html.green-theme .sellers-list-item:hover {
+
+	background-color: #1b2436;
+
+}
+
+html.green-theme .theme-icons,
+html.green-theme .product-box {
+    background-color: #fcfcfc;
+    color: #f1f4f6;
+}
+
+
+html.green-theme .accordion-button {
+    color: #000000;
+    background-color: #fcfcfc;
+}
+
+html.green-theme .accordion-item {
+    background-color: #1b2436;
+    border: 1px solid rgb(255 255 255 / 12%);
+}
+
+
+html.green-theme .accordion-button:focus {
+
+    border-color: #000000;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+
+}
+
+html.green-theme .accordion-button:not(.collapsed) {
+
+    color: #000000;
+    background-color: #161d2c;
+
+}
+
+html.green-theme .dropdown-menu {
+
+    color: #000;
+    background-color: #fcfcfc;
+
+}
+
+html.green-theme  .dropdown-item {
+
+    color: #000;
+
+}
+
+
+html.green-theme .top-header .navbar .dropdown-large .dropdown-menu::after {
+
+    background: #fcfcfc;
+    border-top: 1px solid #2f3b55;
+    border-left: 1px solid #2f3b55;
+
+}
+
+html.green-theme .top-header .navbar .dropdown-searchbar .form-control {
+    color: #000;
+    background-color: #fcfcfc;
+}
+
+
+html.green-theme .top-header .navbar .dropdown-item .setting-icon {
+
+    background-color: #2b3650;
+
+}
+
+html.green-theme .top-header .navbar .dropdown-large .dropdown-item:hover {
+
+    border-radius: 10px;
+    color: #000;
+	background-color: #273146
+}
+
+html.green-theme .top-header .navbar .dropdown-menu .notification-box {
+
+    background-color: #2b3650;
+
+}
+
+html.green-theme .top-header .navbar .dropdown-menu .apps:hover {
+
+    background-color: #283349;
+    transition: all 0.2;
+
+}
+
+
+
+html.green-theme .top-header .navbar .dropdown-menu .apps .apps-name {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html.green-theme .table {
+
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #000000;
+    --bs-table-striped-bg: rgba(255, 255, 255, 0.05);
+    --bs-table-active-color: #000000;
+    --bs-table-active-bg: rgb(255 255 255 / 10%);
+    --bs-table-hover-color: #000000;
+    --bs-table-hover-bg: rgb(255 255 255 / 8%);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #000;
+    vertical-align: top;
+    border-color: rgb(255 255 255 / 12%);
+    
+}
+
+html.green-theme .table-light {
+
+    --bs-table-bg: rgb(255 255 255 / 12%);
+    --bs-table-striped-bg: #ecedee;
+    --bs-table-striped-color: #000;
+    --bs-table-active-bg: #dfe0e1;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #e5e6e7;
+    --bs-table-hover-color: #000;
+    color: #000;
+    border-color: #dfe0e1;
+
+}
+
+
+/* Emailbox */
+
+
+html.green-theme .email-wrapper {
+	background-color: #fcfcfc;
+	box-shadow: 0 .1rem .7rem rgb(0 0 0 / 24%)
+}
+html.green-theme .email-sidebar {
+	background-color: #fcfcfc;
+	border-right: 1px solid rgb(255 255 255 / .12)
+}
+html.green-theme .email-sidebar-header {
+	background-color: #fcfcfc;
+	border-bottom: 1px solid rgb(255 255 255 / .12);
+	border-right: 0 solid rgb(255 255 255 / 12%)
+}
+html.green-theme .email-navigation {
+	border-bottom: 1px solid rgb(255 255 255 / 13%)
+}
+html.green-theme .email-navigation a.list-group-item {
+	color: #e4e5e6;
+	background-color: #fcfcfc;
+	border-bottom: 1px solid rgb(0 0 0 / 0%)
+}
+html.green-theme .email-navigation a.list-group-item:hover {
+	background-color: rgb(255 255 255 / 14%);
+}
+html.green-theme .email-meeting a.list-group-item {
+	color: #e4e5e6;
+	background-color: #fcfcfc;
+	border-bottom: 1px solid rgb(0 0 0 / 0%)
+}
+html.green-theme .email-meeting a.list-group-item:hover {
+	background-color: rgb(255 255 255 / 14%);
+}
+html.green-theme .list-group-item {
+	background-color: #fcfcfc;
+	border: 1px solid rgb(255 255 255 / 13%)
+}
+html.green-theme .email-navigation a.list-group-item.active {
+	color: #000000;
+    font-weight: 600;
+    background-color: rgb(255 255 255 / 14%);
+}
+html.green-theme .list-group-flush>.list-group-item {
+	border-width: 0 0 1px
+}
+html.green-theme .border-top {
+	border-top: 1px solid rgb(255 255 255 / 13%)!important
+}
+html.green-theme .email-header {
+	background-color: #fcfcfc;
+	border-bottom: 1px solid rgb(255 255 255 / 13%)
+}
+html.green-theme .email-content {
+	background: #fcfcfc
+}
+html.green-theme .email-list div.email-message {
+	background-color: #fcfcfc;
+	border-bottom: 1px solid rgb(255 255 255 / 12%);
+	color: #e4e5e6
+}
+html.green-theme .email-list div.email-message:hover {
+	transition: all .2s ease-out;
+	background: #434a50
+}
+
+
+html.green-theme .email-time {
+	font-size: 13px;
+	color: #8c969e
+}
+
+
+/* Chatbox */ 
+
+
+html.green-theme .chat-wrapper {
+	background-color: #fcfcfc;
+	box-shadow: 0 .1rem .7rem rgb(0 0 0 / 22%)
+}
+html.green-theme .chat-sidebar {
+	background-color: #fcfcfc;
+	border-right: 1px solid rgb(255 255 255 / 13%)
+}
+html.green-theme .chat-sidebar-header {
+	background-color: #fcfcfc;
+	border-bottom: 1px solid rgb(255 255 255 / 13%);
+	border-right: 0 solid rgb(255 255 255 / 13%)
+}
+html.green-theme .chat-header {
+	background-color: #fcfcfc;
+	border-bottom: 1px solid rgb(255 255 255 / 13%)
+}
+html.green-theme .chat-tab-menu li a.nav-link {
+	color: #c3c5c8
+}
+html.green-theme .chat-title {
+	color: #e4e5e6
+}
+html.green-theme .chat-msg {
+	font-size: 14px;
+	color: #848992
+}
+html.green-theme .chat-time {
+	font-size: 13px;
+	color: #8c969e
+}
+html.green-theme .chat-top-header-menu a {
+	color: #c3c5c8;
+	background-color: #fcfcfc;
+	border: 1px solid rgb(255 255 255 / 15%)
+}
+html.green-theme .chat-content-leftside .chat-left-msg {
+	background-color: #fcfcfc
+}
+html.green-theme .chat-content-rightside .chat-right-msg {
+	background-color: #41484e
+}
+html.green-theme .chat-footer {
+	background-color: #fcfcfc;
+	border-top: 1px solid rgb(255 255 255 / 13%)
+}
+html.green-theme .chat-footer-menu a {
+	color: #c3c5c8;
+	background-color: #fcfcfc;
+	border: 1px solid rgb(255 255 255 / 15%)
+}
+
+
+html.green-theme .fm-menu .list-group a {
+	color: #c3c5c8
+}
+html.green-theme .fm-icon-box {
+	background: #fcfcfc;
+	color: #000
+}
+html.green-theme .contacts-social a {
+	background: #fcfcfc;
+	color: #000
+}
+
+
+html.green-theme .fc-theme-standard td, html.green-theme .fc-theme-standard th {
+	border: 1px solid rgb(255 255 255 / .12)
+}
+html.green-theme .fc-theme-standard .fc-scrollgrid {
+	border: 1px solid rgb(255 255 255 / 12%)
+}
+html.green-theme .fc .fc-col-header-cell-cushion {
+	color: #000
+}
+html.green-theme .fc .fc-daygrid-day-number {
+	color: #000
+}
+
+html.green-theme .breadcrumb {
+	background-color: rgb(32 42 64 / 0%);
+}
+html.green-theme .breadcrumb-item.active {
+	color: #8b969f
+}
+html.green-theme .breadcrumb-title {
+	border-right: 1.5px solid rgb(255 255 255 / 18%)
+}
+
+html.green-theme .bg-body {
+	background-color: #fcfcfc!important
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width:1199px)  {
+
+    html.green-theme .top-header .navbar .full-searchbar {
+        background-color: #3461ff;
+    }
+
+}
+
+
+
+
+
+
+
+
