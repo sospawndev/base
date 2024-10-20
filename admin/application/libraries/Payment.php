@@ -22,8 +22,8 @@ class Payment
 	}
 	public static function key_live()
 	{
-		$secretkey = "c837a964-4c8e-40b3-a1f6-dcc6b1d026e7";
-		$apikey = "live_71d46ad531054925069f9f5cac41bbed";		
+		$secretkey = "";
+		$apikey = "";		
 		return array("apikey"=>$apikey,"secret_key"=>$secretkey);
 	}
 	public static function get_urls($url)

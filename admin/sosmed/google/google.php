@@ -8,10 +8,10 @@ $client = new Google_Client();
 $client->setApplicationName("Google+ PHP Starter Application");
 // Visit https://code.google.com/apis/console to generate your
 // oauth2_client_id, oauth2_client_secret, and to register your oauth2_redirect_uri.
- $client->setClientId('30939634587-nor6d1kdkmagb46u83vn6ijk5m8tl2au.apps.googleusercontent.com');
- $client->setClientSecret('SrrsCEgOSPdAPKtKTp-ElQD_');
+ $client->setClientId('');
+ $client->setClientSecret('');
  $client->setRedirectUri('http://localhost/lewatpasar/sosmed/google/google.php');
- $client->setDeveloperKey('AIzaSyBjhFOTkfh9tmb9RCLQb53jCQqiihrxb-o');
+ $client->setDeveloperKey('');
  $plus = new Google_Oauth2Service($client);
  $client->setScopes(array('https://www.googleapis.com/auth/userinfo.email','https://www.googleapis.com/auth/userinfo.profile'));
  //unset($_SESSION['access_token']);
